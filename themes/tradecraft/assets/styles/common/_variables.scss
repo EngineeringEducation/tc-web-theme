@@ -1,0 +1,78 @@
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@
+@@@@@  Customize: http://getbootstrap.com/customize/#less-variables
+@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+// Glyphicons font path
+$icon-font-path:            "../fonts/";
+
+// Grid settings
+$main-sm-columns:           12;
+$sidebar-sm-columns:        4;
+
+// Typography
+$font-family-sans-serif:    "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif:         "baskerville-urw", Georgia, "Times New Roman", Times, serif;
+$font-size-base:            18px;
+$line-height-base:          1.5;
+$headings-font-family:      $font-family-serif;
+
+// Measurements
+$navbar-height:             80px;
+$navbar-padding-vertical:   12px;
+
+// Color Palettes
+$brand-primary:             #cb9c59;
+$gray-base:                 #000;
+$gray-darker:               #0b0b0c;
+$gray-dark:                 #25272a;
+$gray:                      #585b60;
+$gray-light:                #a0a1a5;
+$gray-lighter:              #e7e8ec;
+    
+$red-darker:                #321411;
+$red-dark:                  #49201c;
+$red:                       #6f312b;
+$red-light:                 #a0706b;
+$red-lighter:               #ece6e5;
+    
+$blue-darker:               #23272f;
+$blue-dark:                 #2e3441;
+$blue:                      #454e62;
+$blue-light:                #858ea2;
+$blue-lighter:              #e3e5ea;
+    
+$purple-darker:             #2d1d26;
+$purple-dark:               #3f2a36;
+$purple:                    #5b3e4f;
+$purple-light:              #84707c;
+$purple-lighter:            #e7e3e6;
+    
+$brown-darker:              #23272f;
+$brown-dark:                #2e3441;
+$brown:                     #454e62;
+$brown-light:               #858ea2;
+$brown-lighter:             #e3e5ea;
+    
+$green-darker:              #1c2d25;
+$green-dark:                #293f34;
+$green:                     #3c5649;
+$green-light:               #88a295;
+$green-lighter:             #e2e7e5;
+    
+$brand-success:             $green;
+$brand-info:                $blue;
+$brand-warning:             $brown-light;
+$brand-danger:              $red;
+
+// Component colors
+
+$body-bg:                   #fff;
+$text-color:                $gray;
+$link-color:                $brand-primary;
+$link-hover-color:          #a26116;
+$link-hover-decoration:     underline;
+$navbar-default-link-color: $link-color;
+$navbar-default-link-hover-color: $link-hover-color;

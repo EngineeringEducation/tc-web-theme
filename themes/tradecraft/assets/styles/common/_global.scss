@@ -1,0 +1,51 @@
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@
+@@@@@  Global styles begin here. Individual modules and components go
+@@@@@  in ../components
+@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/* @@@@@ *\
+|* @@@@@@@ >> Base & Layout
+\* @@@@@ */
+
+body {
+  background: #fff;
+  padding-top: $navbar-height;
+}
+
+.wf-loading {
+  h1, h2, h3, h4, h5, h6,
+  p,
+  input,
+  time,
+  a, a:hover, a:active, a:visited,
+  li,
+  .textwidget {
+    opacity: 0;
+  }
+}
+
+.wf-active {
+  h1, h2, h3, h4, h5, h6,
+  p,
+  input,
+  time,
+  a, a:hover, a:active, a:visited,
+  li,
+  .textwidget {
+    opacity: 1;
+    transition: 0.25s opacity ease-in;
+  }
+}
+
+// Establish classes in the css rather than markup
+footer {
+  .widget {
+    @extend .col-xs-3;
+  }
+}
+
+/* @@@@@ *\
+|* @@@@@@@ >> Random styles
+\* @@@@@ */
